@@ -9,7 +9,7 @@
 
     for ranger in powerrangers:
         if ranger.zord_rating > 7:
-          print ranger.color
+            print ranger.color
 
 
     outputs>> "Black"

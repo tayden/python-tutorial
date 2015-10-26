@@ -2,8 +2,6 @@
 
 Used to execute code if a condition is met
 
-syntax
-
     a = 2
 
     if a > 2:

@@ -2,7 +2,7 @@
     "index.md",
     [
         "basics-int-dbl-str.md",
-        "basics-lists.md",
+        "basics-arrays.md",
         "basics-dicts.md"
     ],
     [
