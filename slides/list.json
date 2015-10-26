@@ -12,7 +12,9 @@
     ],
     [
         "basics-for-loops.md",
-        "basics-nested-loops.md"
+        "basics-nested-loops.md",
+        "while-loops.md",
+        "list-comprehension.md"
     ],
     [
         "conditionals.md",
@@ -29,5 +31,8 @@
         "classes-more-advanced.md"
     ],
     "everything-is-an-object.md",
-    "api-function.md"
+    [
+        "api-function.md",
+        "shapely-api-example.md"
+    ]
 ]
