@@ -1,0 +1,27 @@
+[
+    "index.md",
+    [
+        "basics-int-dbl-str.md",
+        "basics-lists.md",
+        "basics-dicts.md"
+    ],
+    [
+        "basics-nested-types.md",
+        "lists-of-lists.md",
+        "dict-arrays.md"
+    ],
+    [
+        "basics-for-loops.md",
+        "basics-nested-loops.md"
+    ],
+    [
+        "conditionals.md",
+        "nesting-conditionals.md"
+    ],
+    [
+        "functions.md",
+        "functions-definitions.md",
+        "functions-that-return.md",
+        "functions-defaults.md"
+    ]
+]
