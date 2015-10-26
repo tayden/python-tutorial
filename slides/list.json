@@ -23,5 +23,11 @@
         "functions-definitions.md",
         "functions-that-return.md",
         "functions-defaults.md"
-    ]
+    ],
+    [
+        "classes.md",
+        "classes-more-advanced.md"
+    ],
+    "everything-is-an-object.md",
+    "api-function.md"
 ]
