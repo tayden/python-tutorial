@@ -34,5 +34,6 @@
     [
         "api-function.md",
         "shapely-api-example.md"
-    ]
+    ],
+    "useful-apis.md"
 ]
