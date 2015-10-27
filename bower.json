@@ -1,5 +1,5 @@
 {
-  "name": "python-functional-programming",
+  "name": "python-functions",
   "version": "0.0.0",
   "dependencies": {
     "reveal.js": "~3.1.0",

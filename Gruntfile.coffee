@@ -1,4 +1,4 @@
-# Generated on 2015-10-26 using generator-reveal 0.5.3
+# Generated on 2015-10-27 using generator-reveal 0.5.3
 module.exports = (grunt) ->
 
     grunt.initConfig
@@ -80,6 +80,18 @@ module.exports = (grunt) ->
                 }]
 
         
+        buildcontrol:
+
+            options:
+                dir: 'dist'
+                commit: true
+                push: true
+                message: 'Built from %sourceCommit% on branch %sourceBranch%'
+            pages:
+                options:
+                    remote: 'git@github.com:tayden/python-function-tutorial.git'
+                    branch: 'gh-pages'
+        
 
 
     # Load all grunt tasks.
@@ -121,6 +133,12 @@ module.exports = (grunt) ->
             'copy'
         ]
 
+    
+    grunt.registerTask 'deploy',
+        'Deploy to Github Pages', [
+            'dist'
+            'buildcontrol'
+        ]
     
 
     # Define default task.
