@@ -1,9 +1,11 @@
 {
   "generator-reveal": {
-    "presentationTitle": "Python Functional Programming",
+    "presentationTitle": "Python Functions",
     "packageVersion": "0.0.0",
     "revealTheme": "black",
     "useSass": false,
-    "deployToGithubPages": false
+    "deployToGithubPages": true,
+    "githubUsername": "tayden",
+    "githubRepository": "python-tutorial"
   }
 }
